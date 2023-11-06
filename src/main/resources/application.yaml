@@ -1,0 +1,21 @@
+application:
+  #Router internal IP address
+  url: http://192.168.31.1
+  #Built-in admin account
+  user-name: admin
+  #Router password
+  password: YourSuperSecretPassword
+  #Router key (you can find it in login page sources)
+  key: a2ffa5c9be07488bbb04a3a47d3c5f6a
+  #Default login path
+  login-uri: /cgi-bin/luci/api/xqsystem/login
+  #Default reboot path
+  reboot-uri: /api/xqsystem/reboot?client=web
+  #Default const
+  type: 0
+  #Default const
+  log-type: 2
+  #Device id (you can find it in login page sources)
+  device-id: b0:a4:60:31:db:f7
+  #Any random number, can be static
+  random: 4242
